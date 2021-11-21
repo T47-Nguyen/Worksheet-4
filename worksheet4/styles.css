@@ -19,9 +19,62 @@ h1 {
     text-align: center;
 }
 .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+.container-navigation {
    display: flex; 
    flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-end;
 }
+.container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+ }
+ .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+ .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+ }
+ .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+ }
+ .container-navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+ }
+ .push {
+     margin-left: auto;
+ }
 
 /* section one flex grow and shrink */
 
