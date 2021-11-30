@@ -142,6 +142,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     
 
 }
@@ -158,12 +159,10 @@ iframe {
     background-color: darkslateblue;
     height: 500px;
     align-items: center;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;  
+    display: flex;
+    color: white;
 }
-
 /* section 5 media items */
 
 .section-five {
@@ -175,6 +174,15 @@ iframe {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
+}
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+.mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
 }
 /* button style */
 button {
